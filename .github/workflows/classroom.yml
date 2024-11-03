@@ -28,5 +28,5 @@ jobs:
       env:
         AHORCADO-TEST_RESULTS: "${{steps.ahorcado-tests.outputs.result}}"
       with:
-        runners: "ahorcado-tests"
+        runners: ["ahorcado-tests"]
 
